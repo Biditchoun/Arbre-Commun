@@ -6,7 +6,7 @@
 /*   By: sawijnbe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 18:29:22 by sawijnbe          #+#    #+#             */
-/*   Updated: 2025/10/13 18:34:04 by sawijnbe         ###   ########.fr       */
+/*   Updated: 2025/10/16 11:10:42 by sawijnbe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,10 @@ int	ft_iterative_factorial(int nb)
 		return (0);
 	rt = 1;
 	while (nb > 1)
+	{
 		rt *= nb--;
+		if (rt < 0)
+			return (0);
+	}
 	return (rt);
 }

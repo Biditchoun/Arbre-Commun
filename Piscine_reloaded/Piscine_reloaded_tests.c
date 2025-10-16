@@ -6,7 +6,7 @@
 /*   By: sawijnbe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 12:53:25 by sawijnbe          #+#    #+#             */
-/*   Updated: 2025/10/14 19:09:24 by sawijnbe         ###   ########.fr       */
+/*   Updated: 2025/10/16 11:12:47 by sawijnbe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -187,7 +187,7 @@ int main()
 
 	//ex12
 	int ft_iterative_factorial(int nb);
-	printf("\n\nft_iterative_factorial tests\n0 0 1 1 2 6 120 3628800\n%i %i %i %i %i %i %i %i\n", ft_iterative_factorial(-5),  ft_iterative_factorial(-1),  ft_iterative_factorial(0),  ft_iterative_factorial(1),  ft_iterative_factorial(2),  ft_iterative_factorial(3),  ft_iterative_factorial(5), ft_iterative_factorial(10));
+	printf("\n\nft_iterative_factorial tests\n0 0 1 1 2 6 120 3628800 0\n%i %i %i %i %i %i %i %i %i\n", ft_iterative_factorial(-5),  ft_iterative_factorial(-1),  ft_iterative_factorial(0),  ft_iterative_factorial(1),  ft_iterative_factorial(2),  ft_iterative_factorial(3),  ft_iterative_factorial(5), ft_iterative_factorial(10), ft_iterative_factorial(20));
 
 	//ex13
 	int ft_recursive_factorial(int nb);
